@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.cell {
+  display: flex;
+  width: 80px;
+  border: 1px solid black;
+  justify-content: center;
+}
+
+.column {
+  flex-direction: row;
+  display: flex;
+}
